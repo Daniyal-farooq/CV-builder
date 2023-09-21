@@ -37,7 +37,7 @@ main();
 
 async function main() {
   try {
-    const connection = await mongoose.connect("mongodb+srv://events:RR9eKLMDSeG4zB2w@cluster0.cz7iwrh.mongodb.net/");
+    const connection = await mongoose.connect("mongodb+srv://events:password.mongodb.net/");
     console.log("Connection successful on port 8000");
   } catch (error) {
     console.log("Connection error", error);
